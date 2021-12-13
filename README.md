@@ -33,5 +33,4 @@ The above will empower individuals to take control of their financial future and
 
 7. AutoInvest Solutions
    - Arb FlashLoans
-   - Arb AltCoins
    - Spreading AltCoins (Mean Reversion)
