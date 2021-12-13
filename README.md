@@ -19,18 +19,28 @@ The above will empower individuals to take control of their financial future and
 
 ### High level pieces and vision
 
-- Binance for fiat in/out and buy/sell of crypto
-- Trust Wallet or MetaMask Wallet
-- Integration with Polygon, potentially the zkEVM for the Polygon Zero chain or POS chain
-- 3rd party exchange that allows for options Put selling with fiat to purchase crypto
-
 1. The application to pull through and analyse the users portfolio
 2. Research and analysis of crypto markets and events
-3. Deposit and withdrawal fiat
-4. Buy/sell crypto
-5. Access and interact with DeXs and DeFi
-6. Ability to buy crypto via selling puts
+3. DeFi Dash to compare and analyse similar products
+4. Deposit and withdrawal fiat
+5. Buy/sell crypto
+6. Access and interact with DeXs and DeFi
+7. Ability to buy crypto via selling puts
 
-7. AutoInvest Solutions
+8. AutoInvest Solutions
    - Arb FlashLoans
    - Spreading AltCoins (Mean Reversion)
+
+### Page Ideas
+
+- Login
+- Portfolio
+- Market Analysis and Events
+- DeFi & DeXes
+- Deposit/Withdrawal of Fiat
+- Exchange Fiat-Crypto, Crypto-Fiat
+- Options Exchange
+- Settings
+  - Wallet Connect
+  - Binance
+  - Details
