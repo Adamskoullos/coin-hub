@@ -86,11 +86,50 @@ const ResponsiveAppBar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
+              {/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
+              <MenuItem key="mob-analysis" onClick={handleCloseNavMenu}>
+                <Typography
+                  textAlign="center"
+                  id="mob-analysis-button"
+                  aria-controls="mob-analysis-menu"
+                  aria-haspopup="true"
+                  aria-expanded={open ? "true" : undefined}
+                  onClick={handleClick}
+                >
+                  Analysis
+                </Typography>
+                {/* Testing how to add the drop down <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */}
+                <Menu
+                  id="mob-analysis-menu"
+                  anchorEl={anchorEl}
+                  open={open}
+                  onClose={handleClose}
+                  MenuListProps={{
+                    "aria-labelledby": "mob-analysis-button",
+                  }}
+                >
+                  <MenuItem onClick={handleClose}>SnapShot</MenuItem>
+                  <MenuItem onClick={handleClose}>Spread Charts</MenuItem>
+                  <MenuItem onClick={handleClose}>Fundamentals</MenuItem>
+                  <MenuItem onClick={handleClose}>Coins</MenuItem>
+                  <MenuItem onClick={handleClose}>6 Chart Dash</MenuItem>
+                  <MenuItem onClick={handleClose}>1 Chart Dash</MenuItem>
+                </Menu>
+                {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */}
+              </MenuItem>
+              <MenuItem key="mob-news" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">News</Typography>
+              </MenuItem>
+              <MenuItem key="mob-defi" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">DeFi</Typography>
+              </MenuItem>
+              <MenuItem key="mob-trade" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">Trade</Typography>
+              </MenuItem>
+              <MenuItem key="mob-portfolio" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">Portfolio</Typography>
+              </MenuItem>
+              {/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
             </Menu>
           </Box>
           <Typography
@@ -155,6 +194,7 @@ const ResponsiveAppBar = () => {
               }}
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
+              onClick={handleCloseUserMenu}
             >
               <MenuItem key="deposit" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">Deposit Fiat</Typography>
