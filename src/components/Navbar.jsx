@@ -12,8 +12,8 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
-const pages = ["Products", "Pricing", "Blog"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
+// Top Layer Nav >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+const pages = [1, 2, 3, 4, 5, 6, 7];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -34,6 +34,16 @@ const ResponsiveAppBar = () => {
     setAnchorElUser(null);
   };
 
+  // Desktop Nav and sub menus >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
@@ -46,7 +56,7 @@ const ResponsiveAppBar = () => {
           >
             LOGO
           </Typography>
-
+          {/* Mobile Nav >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
@@ -91,16 +101,37 @@ const ResponsiveAppBar = () => {
           >
             LOGO
           </Typography>
+          {/* Desktop Nav >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
-              >
-                {page}
-              </Button>
-            ))}
+            <Button
+              id="analysis-button"
+              aria-controls="basic-menu"
+              aria-haspopup="true"
+              aria-expanded={open ? "true" : undefined}
+              onClick={handleClick}
+            >
+              Analysis
+            </Button>
+            <Menu
+              id="analysis-menu"
+              anchorEl={anchorEl}
+              open={open}
+              onClose={handleClose}
+              MenuListProps={{
+                "aria-labelledby": "analysis-button",
+              }}
+            >
+              <MenuItem onClick={handleClose}>SnapShot</MenuItem>
+              <MenuItem onClick={handleClose}>Spread Charts</MenuItem>
+              <MenuItem onClick={handleClose}>Fundamentals</MenuItem>
+              <MenuItem onClick={handleClose}>Coins</MenuItem>
+              <MenuItem onClick={handleClose}>6 Chart Dash</MenuItem>
+              <MenuItem onClick={handleClose}>1 Chart Dash</MenuItem>
+            </Menu>
+            <Button onClick={() => {}}>News</Button>
+            <Button onClick={() => {}}>DeFi</Button>
+            <Button onClick={() => {}}>Trade</Button>
+            <Button onClick={() => {}}>Portfolio</Button>
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
@@ -125,11 +156,21 @@ const ResponsiveAppBar = () => {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
+              <MenuItem key="deposit" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">Deposit Fiat</Typography>
+              </MenuItem>
+              <MenuItem key="withdraw" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">Withdraw Fiat</Typography>
+              </MenuItem>
+              <MenuItem key="connect-wallet" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">Connect Wallet</Typography>
+              </MenuItem>
+              <MenuItem key="settings" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">Settings</Typography>
+              </MenuItem>
+              <MenuItem key="logout" onClick={handleCloseNavMenu}>
+                <Typography textAlign="Settings">Logout</Typography>
+              </MenuItem>
             </Menu>
           </Box>
         </Toolbar>

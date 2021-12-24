@@ -11,4 +11,4 @@ Coin Hub is focused on providing research and analysis tools for crypto investor
 
 ### Gray areas
 
-- How can user chart data be saved, what are trading view options and can we use a back end to reload user technical analylis
+- How can user chart data be saved
