@@ -1,23 +1,23 @@
 import { Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 
-const Coins = () => {
+const DeFi = () => {
   return (
     <div style={{ height: "100%" }}>
       <Typography variant="h1" color="primary" sx={{ pt: "40vh" }}>
-        Coins Page
+        DeFi Page
       </Typography>
       <Link
-        to="/coins/1"
+        to="/defi/1"
         style={{
           color: "goldenRod",
           textDecoration: "none",
         }}
       >
-        Details
+        DeFi Protocol
       </Link>
     </div>
   );
 };
 
-export default Coins;
+export default DeFi;
