@@ -7,10 +7,12 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
+// import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
+import { NavLink } from "react-router-dom";
+import SettingsIcon from "@mui/icons-material/Settings";
 
 // Top Layer Nav >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 const pages = [1, 2, 3, 4, 5, 6, 7];
@@ -52,9 +54,13 @@ const ResponsiveAppBar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ mr: 2, display: { xs: "none", md: "flex" } }}
+            sx={{
+              mr: 2,
+              display: { xs: "none", md: "flex" },
+              color: "goldenRod",
+            }}
           >
-            LOGO
+            vulcon
           </Typography>
           {/* Mobile Nav >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -136,7 +142,11 @@ const ResponsiveAppBar = () => {
             variant="h6"
             noWrap
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
+            sx={{
+              flexGrow: 1,
+              display: { xs: "flex", md: "none" },
+              color: "goldenRod",
+            }}
           >
             LOGO
           </Typography>
@@ -160,10 +170,58 @@ const ResponsiveAppBar = () => {
                 "aria-labelledby": "analysis-button",
               }}
             >
-              <MenuItem onClick={handleClose}>SnapShot</MenuItem>
-              <MenuItem onClick={handleClose}>Spread Charts</MenuItem>
-              <MenuItem onClick={handleClose}>Fundamentals</MenuItem>
-              <MenuItem onClick={handleClose}>Coins</MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/snapshot"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "lightGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  SnapShot
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/spread-charts"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "lightGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  Spread Charts
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/fundamentals"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "lightGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  Fundamentals
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/coins"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "lightGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  Coins
+                </NavLink>
+              </MenuItem>
               <MenuItem onClick={handleClose}>6 Chart Dash</MenuItem>
               <MenuItem onClick={handleClose}>1 Chart Dash</MenuItem>
             </Menu>
@@ -175,8 +233,8 @@ const ResponsiveAppBar = () => {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+              <IconButton onClick={handleOpenUserMenu}>
+                <SettingsIcon sx={{ color: "darkGrey" }} />
               </IconButton>
             </Tooltip>
             <Menu
@@ -207,6 +265,9 @@ const ResponsiveAppBar = () => {
               </MenuItem>
               <MenuItem key="settings" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">Settings</Typography>
+              </MenuItem>
+              <MenuItem key="faq" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">FAQ's</Typography>
               </MenuItem>
               <MenuItem key="logout" onClick={handleCloseNavMenu}>
                 <Typography textAlign="Settings">Logout</Typography>

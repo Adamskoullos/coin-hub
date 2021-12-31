@@ -3,8 +3,9 @@ import { Typography } from "@mui/material";
 const Home = () => {
   return (
     <div>
-      <h1 color="primary">Home Page</h1>
-      <Typography color="primary">Twat</Typography>
+      <Typography variant="h1" color="primary" sx={{ my: 20 }}>
+        Landing Page
+      </Typography>
     </div>
   );
 };
