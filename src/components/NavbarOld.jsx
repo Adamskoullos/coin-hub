@@ -11,10 +11,7 @@ import InsightsSharpIcon from "@mui/icons-material/InsightsSharp";
 import RssFeedSharpIcon from "@mui/icons-material/RssFeedSharp";
 import DonutSmallSharpIcon from "@mui/icons-material/DonutSmallSharp";
 import CandlestickChartSharpIcon from "@mui/icons-material/CandlestickChartSharp";
-import AccountTreeSharpIcon from "@mui/icons-material/AccountTreeSharp";
 import SavingsSharpIcon from "@mui/icons-material/SavingsSharp";
-import BarChartSharpIcon from "@mui/icons-material/BarChartSharp";
-import ShowChartSharpIcon from "@mui/icons-material/ShowChartSharp";
 import QueryStatsSharpIcon from "@mui/icons-material/QueryStatsSharp";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
@@ -65,7 +62,7 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{
               mr: 4,
-              display: { xs: "none", lg: "flex" },
+              display: { xs: "none", md: "flex" },
               color: "goldenRod",
               mb: 0.4,
             }}
@@ -73,7 +70,7 @@ const ResponsiveAppBar = () => {
             Vulcon
           </Typography>
           {/* Mobile Nav >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", lg: "none" } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -99,7 +96,7 @@ const ResponsiveAppBar = () => {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: "block", lg: "none" },
+                display: { xs: "block", md: "none" },
               }}
             >
               {/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
@@ -157,38 +154,119 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{
               flexGrow: 1,
-              display: { xs: "flex", lg: "none" },
+              display: { xs: "flex", md: "none" },
               color: "goldenRod",
             }}
           >
             LOGO
           </Typography>
           {/* Desktop Nav >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
-          <Box sx={{ flexGrow: 1, display: { xs: "none", lg: "flex" } }}>
-            <Button onClick={() => {}}>
-              <NavLink
-                to="/snapshot"
-                style={({ isActive }) => {
-                  return {
-                    color: isActive ? "white" : "darkGrey",
-                    textDecoration: "none",
-                    display: "flex",
-                    alignItems: "center",
-                    marginLeft: 5,
-                    marginRight: 5,
-                  };
-                }}
-              >
-                <BarChartSharpIcon sx={{ mr: 1, fontSize: 17, pb: 0.3 }} />
-                SnapShot
-              </NavLink>
+          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            <Button
+              id="analysis-button"
+              aria-controls="basic-menu"
+              aria-haspopup="true"
+              aria-expanded={open ? "true" : undefined}
+              onClick={handleClick}
+              style={{ color: "darkGrey", marginLeft: 5, marginRight: 5 }}
+            >
+              <InsightsSharpIcon fontSize="small" sx={{ mr: 1, pb: 0.5 }} />
+              Analysis
             </Button>
+            <Menu
+              id="analysis-menu"
+              anchorEl={anchorEl}
+              open={open}
+              onClose={handleClose}
+              MenuListProps={{
+                "aria-labelledby": "analysis-button",
+              }}
+            >
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/snapshot"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "darkGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  SnapShot
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/spread-charts"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "darkGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  Spread Charts
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/fundamentals"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "darkGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  Fundamentals
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/coins"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "darkGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  Coins
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/six-charts"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "darkGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  6 Chart Dash
+                </NavLink>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <NavLink
+                  to="/one-chart"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "goldenRod" : "darkGrey",
+                      textDecoration: "none",
+                    };
+                  }}
+                >
+                  1 Chart Dash
+                </NavLink>
+              </MenuItem>
+            </Menu>
             <Button onClick={() => {}}>
               <NavLink
                 to="/news"
                 style={({ isActive }) => {
                   return {
-                    color: isActive ? "white" : "darkGrey",
+                    color: isActive ? "lightGrey" : "darkGrey",
                     textDecoration: "none",
                     display: "flex",
                     alignItems: "center",
@@ -203,28 +281,10 @@ const ResponsiveAppBar = () => {
             </Button>
             <Button onClick={() => {}}>
               <NavLink
-                to="/coins"
-                style={({ isActive }) => {
-                  return {
-                    color: isActive ? "white" : "darkGrey",
-                    textDecoration: "none",
-                    display: "flex",
-                    alignItems: "center",
-                    marginLeft: 5,
-                    marginRight: 5,
-                  };
-                }}
-              >
-                <ShowChartSharpIcon sx={{ mr: 1, fontSize: 17, pb: 0.2 }} />
-                Coins
-              </NavLink>
-            </Button>
-            <Button onClick={() => {}}>
-              <NavLink
                 to="/defi"
                 style={({ isActive }) => {
                   return {
-                    color: isActive ? "white" : "darkGrey",
+                    color: isActive ? "lightGrey" : "darkGrey",
                     textDecoration: "none",
                     display: "flex",
                     alignItems: "center",
@@ -239,10 +299,10 @@ const ResponsiveAppBar = () => {
             </Button>
             <Button onClick={() => {}}>
               <NavLink
-                to="/six-charts"
+                to="/trade"
                 style={({ isActive }) => {
                   return {
-                    color: isActive ? "white" : "darkGrey",
+                    color: isActive ? "lightGrey" : "darkGrey",
                     textDecoration: "none",
                     display: "flex",
                     alignItems: "center",
@@ -254,15 +314,15 @@ const ResponsiveAppBar = () => {
                 <CandlestickChartSharpIcon
                   sx={{ mr: 1, fontSize: 18, pb: 0.2 }}
                 />
-                6 Charts
+                Trade
               </NavLink>
             </Button>
             <Button onClick={() => {}}>
               <NavLink
-                to="/one-chart"
+                to="/portfolio"
                 style={({ isActive }) => {
                   return {
-                    color: isActive ? "white" : "darkGrey",
+                    color: isActive ? "lightGrey" : "darkGrey",
                     textDecoration: "none",
                     display: "flex",
                     alignItems: "center",
@@ -271,28 +331,8 @@ const ResponsiveAppBar = () => {
                   };
                 }}
               >
-                <CandlestickChartSharpIcon
-                  sx={{ mr: 1, fontSize: 18, pb: 0.2 }}
-                />
-                Chart
-              </NavLink>
-            </Button>
-            <Button onClick={() => {}}>
-              <NavLink
-                to="/onchain"
-                style={({ isActive }) => {
-                  return {
-                    color: isActive ? "white" : "darkGrey",
-                    textDecoration: "none",
-                    display: "flex",
-                    alignItems: "center",
-                    marginLeft: 5,
-                    marginRight: 5,
-                  };
-                }}
-              >
-                <AccountTreeSharpIcon sx={{ mr: 1, fontSize: 17, pb: 0.2 }} />
-                OnChain
+                <DonutSmallSharpIcon sx={{ mr: 1, fontSize: 17, pb: 0.2 }} />
+                Portfolio
               </NavLink>
             </Button>
           </Box>

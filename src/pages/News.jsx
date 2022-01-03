@@ -5,7 +5,7 @@ import NewsCard from "../components/NewsCard";
 const News = () => {
   return (
     <div style={{ height: "100%" }}>
-      <Typography variant="h1" color="primary" sx={{ pt: "40vh" }}>
+      <Typography variant="h1" color="primary" sx={{ pt: "5vh" }}>
         News Page
       </Typography>
       <Link

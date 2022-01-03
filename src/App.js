@@ -9,7 +9,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import SnapShot from "./pages/SnapShot";
 import SpreadCharts from "./pages/SpreadCharts";
-import Fundamentals from "./pages/Fundamentals";
+import OnChain from "./pages/OnChain";
 import Coins from "./pages/Coins";
 import CoinDetails from "./pages/CoinDetails";
 import SixCharts from "./pages/SixCharts";
@@ -28,8 +28,6 @@ function App() {
         <Router>
           <div className="App">
             <Navbar />
-
-            {/* <div className="content"> */}
             <Container maxWidth="xl" component="main">
               <Routes>
                 <Route path="/" element={<Home someProp={true} />} />
@@ -42,10 +40,7 @@ function App() {
                   path="/spread-charts"
                   element={<SpreadCharts someProp={true} />}
                 />
-                <Route
-                  path="/fundamentals"
-                  element={<Fundamentals someProp={true} />}
-                />
+                <Route path="/onchain" element={<OnChain someProp={true} />} />
                 <Route path="/coins" element={<Coins someProp={true} />} />
                 <Route path="/coins/:id" element={<CoinDetails />} />
                 <Route
@@ -61,13 +56,8 @@ function App() {
                 <Route path="/defi" element={<DeFi someProp={true} />} />
                 <Route path="/defi/:id" element={<DeFiDetails />} />
                 <Route path="/trade" element={<Trade someProp={true} />} />
-                <Route
-                  path="/portfolio"
-                  element={<Portfolio someProp={true} />}
-                />
               </Routes>
             </Container>
-            {/* </div> */}
           </div>
         </Router>
       </Paper>
