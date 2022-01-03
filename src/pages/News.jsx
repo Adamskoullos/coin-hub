@@ -1,5 +1,6 @@
-import { Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import NewsCard from "../components/NewsCard";
 
 const News = () => {
   return (
@@ -16,6 +17,13 @@ const News = () => {
       >
         News Item
       </Link>
+      <Grid container spacing={4} sx={{ mt: 3 }}>
+        <NewsCard />
+        <NewsCard />
+        <NewsCard />
+        <NewsCard />
+        <NewsCard />
+      </Grid>
     </div>
   );
 };

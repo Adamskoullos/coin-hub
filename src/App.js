@@ -2,7 +2,7 @@ import React from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Paper } from "@mui/material";
+import { Container, Paper } from "@mui/material";
 import appTheme from "./theme";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -29,7 +29,8 @@ function App() {
           <div className="App">
             <Navbar />
 
-            <div className="content">
+            {/* <div className="content"> */}
+            <Container maxWidth="xl" component="main">
               <Routes>
                 <Route path="/" element={<Home someProp={true} />} />
                 <Route path="/login" element={<Login someProp={true} />} />
@@ -65,7 +66,8 @@ function App() {
                   element={<Portfolio someProp={true} />}
                 />
               </Routes>
-            </div>
+            </Container>
+            {/* </div> */}
           </div>
         </Router>
       </Paper>
