@@ -2,14 +2,11 @@ import {
   Avatar,
   Card,
   CardActionArea,
-  CardActions,
   CardHeader,
   CardMedia,
   Grid,
   IconButton,
-  Typography,
 } from "@mui/material";
-import { Box } from "@mui/system";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import { Link } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
 import NewsCard from "../components/NewsCard";
+import { useGetCryptoNewsQuery } from "../services/cryptoNewsApi";
 
 const News = () => {
   const url = "/news/1";
