@@ -19,12 +19,11 @@ import NewsDetails from "./pages/NewsDetails";
 import DeFi from "./pages/DeFi";
 import DeFiDetails from "./pages/DeFiDetails";
 import Trade from "./pages/Trade";
-import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
     <ThemeProvider theme={appTheme}>
-      <Paper style={{ height: "100vh", borderRadius: 0 }}>
+      <Paper style={{ height: "100vh", borderRadius: 0, overflow: "auto" }}>
         <Router>
           <div className="App">
             <Navbar />

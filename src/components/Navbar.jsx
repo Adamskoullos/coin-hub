@@ -22,7 +22,6 @@ import SettingsIcon from "@mui/icons-material/Settings";
 import { ListItemIcon } from "@mui/material";
 
 // Top Layer Nav >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-const pages = [1, 2, 3, 4, 5, 6, 7];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -54,7 +53,7 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
