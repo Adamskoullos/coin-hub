@@ -1,0 +1,727 @@
+{
+  "count": 200,
+  "next": "https://cryptopanic.com/api/v1/posts/?auth_token=eccd72a25ec8d2336e77bb4d8aa723f17fc543ac&page=2",
+  "previous": null,
+  "results": [
+    {
+      "kind": "news",
+      "domain": "newsbtc.com",
+      "source": {
+        "title": "NewsBTC",
+        "region": "en",
+        "domain": "newsbtc.com",
+        "path": null
+      },
+      "title": "Crypto is Not as Narcissistic as You Think",
+      "published_at": "2022-01-06T07:33:10Z",
+      "slug": "Crypto-is-Not-as-Narcissistic-as-You-Think",
+      "id": 13880434,
+      "url": "https://cryptopanic.com/news/13880434/Crypto-is-Not-as-Narcissistic-as-You-Think",
+      "created_at": "2022-01-06T07:33:10Z",
+      "votes": {
+        "negative": 0,
+        "positive": 0,
+        "important": 0,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      }
+    },
+    {
+      "kind": "news",
+      "domain": "bitcoinist.com",
+      "source": {
+        "title": "Bitcoinist",
+        "region": "en",
+        "domain": "bitcoinist.com",
+        "path": null
+      },
+      "title": "Inery Blockchain: Decentralized Storage Solution Promising Unmatched Security",
+      "published_at": "2022-01-06T07:02:19Z",
+      "slug": "Inery-Blockchain-Decentralized-Storage-Solution-Promising-Unmatched-Security",
+      "id": 13879347,
+      "url": "https://cryptopanic.com/news/13879347/Inery-Blockchain-Decentralized-Storage-Solution-Promising-Unmatched-Security",
+      "created_at": "2022-01-06T07:02:19Z",
+      "votes": {
+        "negative": 0,
+        "positive": 0,
+        "important": 0,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      }
+    },
+    {
+      "kind": "news",
+      "domain": "beincrypto.com",
+      "source": {
+        "title": "BeInCrypto",
+        "region": "en",
+        "domain": "beincrypto.com",
+        "path": null
+      },
+      "title": "Sin City Metaverse Land Sale Sold-Out in Under Two Hours, Netting $3.5m",
+      "published_at": "2022-01-06T06:50:35Z",
+      "slug": "Sin-City-Metaverse-Land-Sale-Sold-Out-in-Under-Two-Hours-Netting-35m",
+      "id": 13879696,
+      "url": "https://cryptopanic.com/news/13879696/Sin-City-Metaverse-Land-Sale-Sold-Out-in-Under-Two-Hours-Netting-35m",
+      "created_at": "2022-01-06T06:50:35Z",
+      "votes": {
+        "negative": 0,
+        "positive": 0,
+        "important": 0,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      }
+    },
+    {
+      "kind": "news",
+      "domain": "beincrypto.com",
+      "votes": {
+        "negative": 1,
+        "positive": 1,
+        "important": 0,
+        "liked": 2,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      },
+      "source": {
+        "title": "BeInCrypto",
+        "region": "en",
+        "domain": "beincrypto.com",
+        "path": null
+      },
+      "title": "Thailand Hits Crypto Traders With Capital Gains Tax",
+      "published_at": "2022-01-06T06:22:51Z",
+      "slug": "Thailand-Hits-Crypto-Traders-With-Capital-Gains-Tax",
+      "id": 13878638,
+      "url": "https://cryptopanic.com/news/13878638/Thailand-Hits-Crypto-Traders-With-Capital-Gains-Tax",
+      "created_at": "2022-01-06T06:22:51Z"
+    },
+    {
+      "kind": "news",
+      "domain": "cryptoslate.com",
+      "votes": {
+        "negative": 0,
+        "positive": 1,
+        "important": 0,
+        "liked": 1,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      },
+      "source": {
+        "title": "CryptoSlate",
+        "region": "en",
+        "domain": "cryptoslate.com",
+        "path": null
+      },
+      "title": "Metaversal announce $50 million Series A fund led by Coinfund and Foxhaven",
+      "published_at": "2022-01-06T06:00:38Z",
+      "slug": "Metaversal-announce-50-million-Series-A-fund-led-by-Coinfund-and-Foxhaven",
+      "id": 13877418,
+      "url": "https://cryptopanic.com/news/13877418/Metaversal-announce-50-million-Series-A-fund-led-by-Coinfund-and-Foxhaven",
+      "created_at": "2022-01-06T06:00:38Z"
+    },
+    {
+      "kind": "news",
+      "domain": "u.today",
+      "votes": {
+        "negative": 6,
+        "positive": 4,
+        "important": 6,
+        "liked": 6,
+        "disliked": 4,
+        "lol": 3,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      },
+      "source": {
+        "title": "U.Today",
+        "region": "en",
+        "domain": "u.today",
+        "path": null
+      },
+      "title": "Key Reasons Why Bitcoin Just Tanked to $42K",
+      "published_at": "2022-01-06T05:38:50Z",
+      "slug": "Key-Reasons-Why-Bitcoin-Just-Tanked-to-42K",
+      "currencies": [
+        {
+          "code": "BTC",
+          "title": "Bitcoin",
+          "slug": "bitcoin",
+          "url": "https://cryptopanic.com/news/bitcoin/"
+        }
+      ],
+      "id": 13876703,
+      "url": "https://cryptopanic.com/news/13876703/Key-Reasons-Why-Bitcoin-Just-Tanked-to-42K",
+      "created_at": "2022-01-06T05:38:50Z"
+    },
+    {
+      "kind": "news",
+      "domain": "@cryptocom",
+      "votes": {
+        "negative": 0,
+        "positive": 0,
+        "important": 0,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 1,
+        "comments": 0
+      },
+      "source": {
+        "title": "Crypto.com Twitter",
+        "region": "en",
+        "domain": "twitter.com",
+        "path": "@cryptocom"
+      },
+      "title": "New Whitepapers on DeFi\nIn this month's research update, we focus at the evolution from Defi 1.0 to Defi 2.0\n\ud83e\uddf5Sc\u2026",
+      "published_at": "2022-01-06T05:35:59Z",
+      "slug": "New-Whitepapers-on-DeFi-In-this-months-research-update-we-focus-at-the-evolution-from-Defi-10-to-Defi-20-Sc",
+      "currencies": [
+        {
+          "code": "MCO",
+          "title": "MCO",
+          "slug": null,
+          "url": "https://cryptopanic.com/news/None/"
+        },
+        {
+          "code": "CRO",
+          "title": "Crypto.com Coin",
+          "slug": "crypto-com-chain",
+          "url": "https://cryptopanic.com/news/crypto-com-chain/"
+        },
+        {
+          "code": "WCRO",
+          "title": "Wrapped CRO",
+          "slug": "wrapped-cro",
+          "url": "https://cryptopanic.com/news/wrapped-cro/"
+        }
+      ],
+      "id": 13877813,
+      "url": "https://cryptopanic.com/news/13877813/New-Whitepapers-on-DeFi-In-this-months-research-update-we-focus-at-the-evolution-from-Defi-10-to-Defi-20-Sc",
+      "created_at": "2022-01-06T05:35:59Z"
+    },
+    {
+      "kind": "blog",
+      "domain": "sanfranciscotribe.com",
+      "votes": {
+        "negative": 0,
+        "positive": 2,
+        "important": 1,
+        "liked": 2,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 1,
+        "comments": 1
+      },
+      "source": {
+        "title": "San Francisco Tribe",
+        "region": "en",
+        "domain": "sanfranciscotribe.com",
+        "path": null
+      },
+      "title": "Hawku Raises 4M To Build Out NFT Marketplace! \u2013 NFTs Still Bullish!",
+      "published_at": "2022-01-06T05:18:44Z",
+      "slug": "Hawku-Raises-4M-To-Build-Out-NFT-Marketplace-NFTs-Still-Bullish",
+      "id": 13876267,
+      "url": "https://cryptopanic.com/news/13876267/Hawku-Raises-4M-To-Build-Out-NFT-Marketplace-NFTs-Still-Bullish",
+      "created_at": "2022-01-06T05:18:44Z"
+    },
+    {
+      "kind": "news",
+      "domain": "beincrypto.com",
+      "votes": {
+        "negative": 1,
+        "positive": 0,
+        "important": 1,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 1,
+        "comments": 1
+      },
+      "source": {
+        "title": "BeInCrypto",
+        "region": "en",
+        "domain": "beincrypto.com",
+        "path": null
+      },
+      "title": "\u2018Bitcoin a Contrarian Bet\u2019 for 2022, Says Messari Founder Ryan Selkis",
+      "published_at": "2022-01-06T05:13:50Z",
+      "slug": "Bitcoin-a-Contrarian-Bet-for-2022-Says-Messari-Founder-Ryan-Selkis",
+      "currencies": [
+        {
+          "code": "BTC",
+          "title": "Bitcoin",
+          "slug": "bitcoin",
+          "url": "https://cryptopanic.com/news/bitcoin/"
+        }
+      ],
+      "id": 13876265,
+      "url": "https://cryptopanic.com/news/13876265/Bitcoin-a-Contrarian-Bet-for-2022-Says-Messari-Founder-Ryan-Selkis",
+      "created_at": "2022-01-06T05:13:50Z"
+    },
+    {
+      "kind": "news",
+      "domain": "@dfinity",
+      "votes": {
+        "negative": 0,
+        "positive": 0,
+        "important": 0,
+        "liked": 1,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 1,
+        "comments": 0
+      },
+      "source": {
+        "title": "Dfinity [IOU] Twitter",
+        "region": "en",
+        "domain": "twitter.com",
+        "path": "@dfinity"
+      },
+      "title": ".@cex_io research reports, \"The Internet Computer has a few significant advantages that are hard to beat: it\u2019s infi\u2026",
+      "published_at": "2022-01-06T05:04:14Z",
+      "slug": "cex_io-research-reports-The-Internet-Computer-has-a-few-significant-advantages-that-are-hard-to-beat-its-infi",
+      "currencies": [
+        {
+          "code": "ICP",
+          "title": "Internet Computer [IOU]",
+          "slug": null,
+          "url": "https://cryptopanic.com/news/None/"
+        },
+        {
+          "code": "ICP",
+          "title": "Internet Computer",
+          "slug": "internet-computer",
+          "url": "https://cryptopanic.com/news/internet-computer/"
+        }
+      ],
+      "id": 13876235,
+      "url": "https://cryptopanic.com/news/13876235/cex_io-research-reports-The-Internet-Computer-has-a-few-significant-advantages-that-are-hard-to-beat-its-infi",
+      "created_at": "2022-01-06T05:04:14Z"
+    },
+    {
+      "kind": "news",
+      "domain": "@HuobiGlobal",
+      "source": {
+        "title": "Huobi Token Twitter",
+        "region": "en",
+        "domain": "twitter.com",
+        "path": "@huobiglobal"
+      },
+      "title": "Welcome to Around the #Blockchain, Huobi Learn\u2019s daily rundown of the #crypto markets.",
+      "published_at": "2022-01-06T05:03:09Z",
+      "slug": "Welcome-to-Around-the-Blockchain-Huobi-Learns-daily-rundown-of-the-crypto-markets",
+      "currencies": [
+        {
+          "code": "HT",
+          "title": "Huobi Token",
+          "slug": "huobi-token",
+          "url": "https://cryptopanic.com/news/huobi-token/"
+        },
+        {
+          "code": "HPT",
+          "title": "Huobi Pool Token",
+          "slug": "huobi-pool-token",
+          "url": "https://cryptopanic.com/news/huobi-pool-token/"
+        },
+        {
+          "code": "HBTC",
+          "title": "Huobi BTC",
+          "slug": "huobi-btc",
+          "url": "https://cryptopanic.com/news/huobi-btc/"
+        }
+      ],
+      "id": 13876223,
+      "url": "https://cryptopanic.com/news/13876223/Welcome-to-Around-the-Blockchain-Huobi-Learns-daily-rundown-of-the-crypto-markets",
+      "created_at": "2022-01-06T05:03:09Z",
+      "votes": {
+        "negative": 0,
+        "positive": 0,
+        "important": 0,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      }
+    },
+    {
+      "kind": "news",
+      "domain": "forbes.com",
+      "votes": {
+        "negative": 0,
+        "positive": 1,
+        "important": 0,
+        "liked": 1,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      },
+      "source": {
+        "title": "Forbes",
+        "region": "en",
+        "domain": "forbes.com",
+        "path": null
+      },
+      "title": "Singapore's Next-Gen Tycoons Join NFT Craze With Launch Of Collaboration Platform For Entrepreneurs",
+      "published_at": "2022-01-06T04:55:49Z",
+      "slug": "Singapores-Next-Gen-Tycoons-Join-NFT-Craze-With-Launch-Of-Collaboration-Platform-For-Entrepreneurs",
+      "id": 13876372,
+      "url": "https://cryptopanic.com/news/13876372/Singapores-Next-Gen-Tycoons-Join-NFT-Craze-With-Launch-Of-Collaboration-Platform-For-Entrepreneurs",
+      "created_at": "2022-01-06T04:55:49Z"
+    },
+    {
+      "kind": "news",
+      "domain": "cointelegraph.com",
+      "votes": {
+        "negative": 1,
+        "positive": 2,
+        "important": 1,
+        "liked": 1,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 1,
+        "comments": 0
+      },
+      "source": {
+        "title": "CoinTelegraph",
+        "region": "en",
+        "domain": "cointelegraph.com",
+        "path": null
+      },
+      "title": "Aave launches its permissioned pool Aave Arc, with 30 institutions set to join",
+      "published_at": "2022-01-06T04:40:53Z",
+      "slug": "Aave-launches-its-permissioned-pool-Aave-Arc-with-30-institutions-set-to-join",
+      "currencies": [
+        {
+          "code": "AAVE",
+          "title": "Aave",
+          "slug": "aave",
+          "url": "https://cryptopanic.com/news/aave/"
+        }
+      ],
+      "id": 13876201,
+      "url": "https://cryptopanic.com/news/13876201/Aave-launches-its-permissioned-pool-Aave-Arc-with-30-institutions-set-to-join",
+      "created_at": "2022-01-06T04:40:53Z"
+    },
+    {
+      "kind": "news",
+      "domain": "cryptoslate.com",
+      "votes": {
+        "negative": 2,
+        "positive": 3,
+        "important": 1,
+        "liked": 2,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 1,
+        "comments": 0
+      },
+      "source": {
+        "title": "CryptoSlate",
+        "region": "en",
+        "domain": "cryptoslate.com",
+        "path": null
+      },
+      "title": "Ethereum outperformed Bitcoin throughout 2021",
+      "published_at": "2022-01-06T04:30:31Z",
+      "slug": "Ethereum-outperformed-Bitcoin-throughout-2021",
+      "currencies": [
+        {
+          "code": "BTC",
+          "title": "Bitcoin",
+          "slug": "bitcoin",
+          "url": "https://cryptopanic.com/news/bitcoin/"
+        },
+        {
+          "code": "ETH",
+          "title": "Ethereum",
+          "slug": "ethereum",
+          "url": "https://cryptopanic.com/news/ethereum/"
+        }
+      ],
+      "id": 13876174,
+      "url": "https://cryptopanic.com/news/13876174/Ethereum-outperformed-Bitcoin-throughout-2021",
+      "created_at": "2022-01-06T04:30:31Z"
+    },
+    {
+      "kind": "news",
+      "domain": "@cryptocom",
+      "source": {
+        "title": "Crypto.com Twitter",
+        "region": "en",
+        "domain": "twitter.com",
+        "path": "@cryptocom"
+      },
+      "title": "New ERC20 tokens added to the DeFi Wallet \n\n Celsius (#CEL)\n Convex Finance (#CVX)\n Nexo\u2026",
+      "published_at": "2022-01-06T04:30:00Z",
+      "slug": "New-ERC20-tokens-added-to-the-DeFi-Wallet-Celsius-CEL-Convex-Finance-CVX-Nexo",
+      "currencies": [
+        {
+          "code": "MCO",
+          "title": "MCO",
+          "slug": null,
+          "url": "https://cryptopanic.com/news/None/"
+        },
+        {
+          "code": "CRO",
+          "title": "Crypto.com Coin",
+          "slug": "crypto-com-chain",
+          "url": "https://cryptopanic.com/news/crypto-com-chain/"
+        },
+        {
+          "code": "WCRO",
+          "title": "Wrapped CRO",
+          "slug": "wrapped-cro",
+          "url": "https://cryptopanic.com/news/wrapped-cro/"
+        },
+        {
+          "code": "CVX",
+          "title": "Convex Finance",
+          "slug": "convex-finance",
+          "url": "https://cryptopanic.com/news/convex-finance/"
+        }
+      ],
+      "id": 13877814,
+      "url": "https://cryptopanic.com/news/13877814/New-ERC20-tokens-added-to-the-DeFi-Wallet-Celsius-CEL-Convex-Finance-CVX-Nexo",
+      "created_at": "2022-01-06T04:30:00Z",
+      "votes": {
+        "negative": 0,
+        "positive": 0,
+        "important": 0,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      }
+    },
+    {
+      "kind": "news",
+      "domain": "cointelegraph.com",
+      "votes": {
+        "negative": 1,
+        "positive": 0,
+        "important": 1,
+        "liked": 0,
+        "disliked": 1,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      },
+      "source": {
+        "title": "CoinTelegraph",
+        "region": "en",
+        "domain": "cointelegraph.com",
+        "path": null
+      },
+      "title": "Raoul Pal says 'reasonable chance' crypto market cap could 100X by 2030",
+      "published_at": "2022-01-06T04:28:06Z",
+      "slug": "Raoul-Pal-says-reasonable-chance-crypto-market-cap-could-100X-by-2030",
+      "currencies": [
+        {
+          "code": "MC_",
+          "title": "Market Cap",
+          "slug": "market-cap",
+          "url": "https://cryptopanic.com/news/market-cap/"
+        },
+        {
+          "code": "BTC",
+          "title": "Bitcoin",
+          "slug": "bitcoin",
+          "url": "https://cryptopanic.com/news/bitcoin/"
+        }
+      ],
+      "id": 13876173,
+      "url": "https://cryptopanic.com/news/13876173/Raoul-Pal-says-reasonable-chance-crypto-market-cap-could-100X-by-2030",
+      "created_at": "2022-01-06T04:28:06Z"
+    },
+    {
+      "kind": "news",
+      "domain": "beincrypto.com",
+      "votes": {
+        "negative": 1,
+        "positive": 2,
+        "important": 2,
+        "liked": 2,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      },
+      "source": {
+        "title": "BeInCrypto",
+        "region": "en",
+        "domain": "beincrypto.com",
+        "path": null
+      },
+      "title": "Crypto Jobs Market \u2018Has Matured\u2019 According to CryptoJobsList Chief",
+      "published_at": "2022-01-06T03:30:00Z",
+      "slug": "Crypto-Jobs-Market-Has-Matured-According-to-CryptoJobsList-Chief",
+      "id": 13876061,
+      "url": "https://cryptopanic.com/news/13876061/Crypto-Jobs-Market-Has-Matured-According-to-CryptoJobsList-Chief",
+      "created_at": "2022-01-06T03:30:00Z"
+    },
+    {
+      "kind": "news",
+      "domain": "@BitTorrent",
+      "votes": {
+        "negative": 1,
+        "positive": 0,
+        "important": 0,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      },
+      "source": {
+        "title": "BitTorrent Twitter",
+        "region": "en",
+        "domain": "twitter.com",
+        "path": "@bittorrent"
+      },
+      "title": "#BTFS stats:\nTotal miners exceeded 4.3M\nTotal contracts exceeded 62M\nTotal revenue exceeded 12B #BTT\n \nTop 3 c\u2026",
+      "published_at": "2022-01-06T03:28:40Z",
+      "slug": "BTFS-stats-Total-miners-exceeded-43M-Total-contracts-exceeded-62M-Total-revenue-exceeded-12B-BTT-Top-3-c",
+      "currencies": [
+        {
+          "code": "BTT",
+          "title": "BitTorrent",
+          "slug": "bittorrent-2",
+          "url": "https://cryptopanic.com/news/bittorrent-2/"
+        }
+      ],
+      "id": 13877058,
+      "url": "https://cryptopanic.com/news/13877058/BTFS-stats-Total-miners-exceeded-43M-Total-contracts-exceeded-62M-Total-revenue-exceeded-12B-BTT-Top-3-c",
+      "created_at": "2022-01-06T03:28:40Z"
+    },
+    {
+      "kind": "news",
+      "domain": "@binance",
+      "source": {
+        "title": "Binance Coin Twitter",
+        "region": "en",
+        "domain": "twitter.com",
+        "path": "@binance"
+      },
+      "title": "RT @binance: Do you have 2,000 or more friends on social media? \n\nBecome a #Binance affiliate and you could earn up to 50% lifetime commiss\u2026",
+      "published_at": "2022-01-06T03:17:07Z",
+      "slug": "RT-binance-Do-you-have-2000-or-more-friends-on-social-media-Become-a-Binance-affiliate-and-you-could-earn-up-to-50-lifetime-commiss",
+      "currencies": [
+        {
+          "code": "BNB",
+          "title": "OEC Binance Coin",
+          "slug": "oec-binance-coin",
+          "url": "https://cryptopanic.com/news/oec-binance-coin/"
+        },
+        {
+          "code": "ETHDOWN",
+          "title": "ETHDOWN",
+          "slug": "ethdown",
+          "url": "https://cryptopanic.com/news/ethdown/"
+        },
+        {
+          "code": "ETHUP",
+          "title": "ETHUP",
+          "slug": "ethup",
+          "url": "https://cryptopanic.com/news/ethup/"
+        },
+        {
+          "code": "BNB",
+          "title": "Binance Coin",
+          "slug": "binancecoin",
+          "url": "https://cryptopanic.com/news/binancecoin/"
+        }
+      ],
+      "id": 13877010,
+      "url": "https://cryptopanic.com/news/13877010/RT-binance-Do-you-have-2000-or-more-friends-on-social-media-Become-a-Binance-affiliate-and-you-could-earn-up-to-50-lifetime-commiss",
+      "created_at": "2022-01-06T03:17:07Z",
+      "votes": {
+        "negative": 0,
+        "positive": 0,
+        "important": 0,
+        "liked": 0,
+        "disliked": 0,
+        "lol": 0,
+        "toxic": 0,
+        "saved": 0,
+        "comments": 0
+      }
+    },
+    {
+      "kind": "news",
+      "domain": "newsbtc.com",
+      "votes": {
+        "negative": 21,
+        "positive": 12,
+        "important": 5,
+        "liked": 7,
+        "disliked": 10,
+        "lol": 6,
+        "toxic": 0,
+        "saved": 2,
+        "comments": 8
+      },
+      "source": {
+        "title": "NewsBTC",
+        "region": "en",
+        "domain": "newsbtc.com",
+        "path": null
+      },
+      "title": "TA: Bitcoin Plunges Below Key Support, Turn Sell On Rallies",
+      "published_at": "2022-01-06T03:08:43Z",
+      "slug": "TA-Bitcoin-Plunges-Below-Key-Support-Turn-Sell-On-Rallies",
+      "currencies": [
+        {
+          "code": "BTC",
+          "title": "Bitcoin",
+          "slug": "bitcoin",
+          "url": "https://cryptopanic.com/news/bitcoin/"
+        },
+        {
+          "code": "NEAR",
+          "title": "Near",
+          "slug": "near",
+          "url": "https://cryptopanic.com/news/near/"
+        }
+      ],
+      "id": 13875970,
+      "url": "https://cryptopanic.com/news/13875970/TA-Bitcoin-Plunges-Below-Key-Support-Turn-Sell-On-Rallies",
+      "created_at": "2022-01-06T03:08:43Z"
+    }
+  ]
+}
